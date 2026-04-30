@@ -1,0 +1,44 @@
+{
+  "project": "PDF Merge Service",
+  "phase": "0-mvp",
+  "steps": [
+    {
+      "step": 0,
+      "name": "project-setup",
+      "status": "completed",
+      "started_at": "2026-04-30T10:58:01+0900",
+      "summary": "Next.js/TypeScript/Tailwind/Vitest 프로젝트 골격과 기본 화면 생성",
+      "completed_at": "2026-04-30T11:17:30+0900"
+    },
+    {
+      "step": 1,
+      "name": "merge-core",
+      "status": "completed",
+      "summary": "검증 제한, 출력명 충돌 처리, pdf-lib 기반 공용 병합 코어와 테스트 구현",
+      "completed_at": "2026-04-30T11:17:30+0900"
+    },
+    {
+      "step": 2,
+      "name": "merge-api",
+      "status": "completed",
+      "summary": "POST /api/merge 서버 라우트와 multipart 검증/바이너리 응답 테스트 구현",
+      "completed_at": "2026-04-30T11:17:30+0900"
+    },
+    {
+      "step": 3,
+      "name": "cli-flow",
+      "status": "completed",
+      "summary": "공용 코어를 재사용하는 pdf-merge CLI와 출력 경로/오류 테스트 구현",
+      "completed_at": "2026-04-30T11:17:30+0900"
+    },
+    {
+      "step": 4,
+      "name": "web-ui",
+      "status": "completed",
+      "summary": "PDF 업로드, 순서 변경, 서버 병합, 취소, 다운로드 UI와 React 테스트 구현",
+      "completed_at": "2026-04-30T11:17:30+0900"
+    }
+  ],
+  "created_at": "2026-04-30T10:58:01+0900",
+  "completed_at": "2026-04-30T11:17:30+0900"
+}
